@@ -1,0 +1,11 @@
+{
+  "name": "tmp36_start",
+  "version": "1.0.0",
+  "description": "tmp36-node",
+  "main": "tmp36_node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aa16",
+  "license": "MIT"
+}
