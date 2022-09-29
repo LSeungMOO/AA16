@@ -5,20 +5,17 @@ int threshold=70;
 
 
 void setup() {
-  pinMode(ledPin,OUTPUT);
+  
   Serial.begin(9600);
 }
 
 void loop() {
 
   int value = analogRead(CDS_INPUT);
-  int lux= int(luminosity(value));
-  Serial.println(lux);
+ 
+  Serial.println(int(luminosity(value)));
 
-if(lux>=threshold)
-digitalWrite(ledPin,LOW);
-else
-digitalWrite(ledPin,HIGH);
+
   
   
   delay(1000);
